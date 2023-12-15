@@ -11,8 +11,6 @@
 
 
 // Массив входных данных
-using System.Globalization;
-
 string[] startArray = new string[5] {"array", "for", "final", "job", "123"};
 // Массив выходных данных (длина равна startArray)
 string[] endArray = new string[startArray.Length];
