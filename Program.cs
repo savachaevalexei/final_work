@@ -31,7 +31,7 @@ void SearchResult(string[] startArray, string[] endArray)
 }
 
 // Функция для вывода на экран решения поставленной задачи
-void PrintResult(string[] startArray)
+void PrintResult(string[] endArray)
 {
     Console.WriteLine("Result: ");
     for (int i = 0; i < endArray.Length; i++)
@@ -43,4 +43,4 @@ void PrintResult(string[] startArray)
 
 
 SearchResult(startArray, endArray);
-PrintResult(startArray);
+PrintResult(endArray);
