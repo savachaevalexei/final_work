@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-12-15T02:25:09.326Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="E92Y67kIszfDViEwy_8Q" version="22.1.2" type="device">
+  <diagram name="Page-1" id="9ZauZu9WlneV_K0MqxlC">
+    <mxGraphModel dx="1434" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rTOsEVx22nEdnwDDdv1w-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.5" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-4" target="rTOsEVx22nEdnwDDdv1w-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-4" target="rTOsEVx22nEdnwDDdv1w-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-4" value="i = 0,&amp;nbsp; i &amp;lt; startArray.lenght, i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="270" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-6" target="rTOsEVx22nEdnwDDdv1w-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-18" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="123" y="455" />
+              <mxPoint x="123" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-6" value="startArray[i].lenght &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="390" width="243.75" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-9" value="startArray=[&quot;array&quot;, &quot;for&quot;, &quot;final&quot;, &quot;job&quot;, &quot;123&quot;]&lt;br&gt;endArray = [ ]&lt;br&gt;int j = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110.5" y="180" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-16" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-10" target="rTOsEVx22nEdnwDDdv1w-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="600" />
+              <mxPoint x="90" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-10" value="endArray[j] = startArray[i]&lt;br&gt;j++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="565" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rTOsEVx22nEdnwDDdv1w-17" target="rTOsEVx22nEdnwDDdv1w-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-17" value="endArray[]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rTOsEVx22nEdnwDDdv1w-21" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
